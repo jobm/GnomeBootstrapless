@@ -1,0 +1,28 @@
+.main{
+  position:relative;
+  margin: 22px 22px 22px 22px;
+  height: auto;
+}
+.page-header{
+  height: 100px;
+  background-color: #383838 ;
+}
+.main-text{
+  padding-top: 26px;
+  padding-left: 12px;
+  font-size: 46px;
+  font-weight: lighter;
+  color: #FFCC33;
+}
+.middle-space{
+  width:50%;
+}
+.spanned-text{
+  color: #fff;
+}
+.rest-text{
+  font-size: 18px;
+  padding-top: 44px;
+  font-weight: 100;
+  color:gray;
+}
