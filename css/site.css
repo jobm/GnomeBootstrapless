@@ -83,7 +83,20 @@
 
 /*end of main article css*/
 
-.article-img-con{width:100%;}
-.img-edit-con{float:left;width:100px;}
-.img-pen-con{float:right;width:100px;}
-.img-vers-con{margin:0 auto;width:100px;}
+.article-img-con{
+  width:100%;
+  text-align:center;
+}
+.img-edit-con{
+  float:left;
+  width:100px;
+}
+.img-pen-con{
+  display: inline-block;
+    margin:0 auto;
+    width:100px;
+}
+.img-vers-con{
+  float:right;
+  width:100px;
+}
