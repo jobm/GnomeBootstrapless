@@ -22,8 +22,9 @@
   color: #fff;
 }
 .rest-text{
-  font-size: 18px;
+  font-size: 16px;
   padding-top: 44px;
+  padding-left: 34px;
   font-weight: 100;
   color:gray;
 }
@@ -38,7 +39,7 @@
 .image-text{
   max-width: 24%;
   position: absolute;
-  top:18%;
+  top:12%;
   transform: translate(6%);
   font-size: 32px;
   font-style: italic;
@@ -48,15 +49,12 @@
 .u-img-text{
   max-width: 26%;
   position: absolute;
-  top: 46%;
+  top: 42%;
   transform:translate(6%);
   font-size: 12px;
   font-style: italic;
   font-weight: normal;
   text-decoration: overline underline;
-}
-.ui-img-text::before{
-  text-decoration:overline;
 }
 /*jumbotron css*/
 
@@ -65,9 +63,11 @@
   font-family: sans-serif;
   font-weight: normal;
 }
+
 .main-article{
   color: #909090 ;
 }
+
 #article-button{
   width:10%;
   height: 14%;
@@ -80,11 +80,10 @@
   padding: 12px;
   color:#fff;
 }
-#img-row{
-  text-align: center;
-}
-.article-img-text{
-  position: absolute;
-  text-align: center;
-}
+
 /*end of main article css*/
+
+.article-img-con{width:100%;}
+.img-edit-con{float:left;width:100px;}
+.img-pen-con{float:right;width:100px;}
+.img-vers-con{margin:0 auto;width:100px;}
