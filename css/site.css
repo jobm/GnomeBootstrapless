@@ -1,8 +1,14 @@
 /*header css*/
+body{
+  background-color: #C0C0C0;
+}
 .main{
   position:relative;
   margin: 22px 22px 22px 22px;
   height: auto;
+  background-color: #fff;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .page-header{
   height: 100px;
@@ -47,14 +53,18 @@
 }
 
 .u-img-text{
-  max-width: 26%;
-  position: absolute;
-  top: 42%;
-  transform:translate(6%);
+  /*top:0.5%;*/
+  padding-bottom: 2px;
+  margin-bottom: 4px;
   font-size: 12px;
   font-style: italic;
   font-weight: normal;
+  max-width: 26%;
+  position: absolute;
+  top: 26%;
+  transform:translate(6%);
   text-decoration: overline underline;
+  /*padding: 12% 12% 12% 12%;*/
 }
 /*jumbotron css*/
 
@@ -83,20 +93,46 @@
 
 /*end of main article css*/
 
+/* the middle article with text and images*/
 .article-img-con{
   width:100%;
   text-align:center;
 }
 .img-edit-con{
   float:left;
-  width:100px;
+  width:20%;
+  margin-left: 0%;
 }
 .img-pen-con{
   display: inline-block;
     margin:0 auto;
-    width:100px;
+    width:20%;
 }
 .img-vers-con{
-  float:right;
-  width:100px;
+  float: right;
+  width: 20%;
+  margin-right: 0%;
 }
+/*end of the middle articele with text and images*/
+
+/*image and one text*/
+.image-text{
+  width:100%;
+  text-align: center;
+}
+.left-text{
+  float: left;
+  width: 68%;
+  margin-left: 0 1.5%;
+}
+.right-img{
+  float: right;
+  width: 32%;
+  margin-right: 4%;
+}
+.lft-txt{
+  left: 4%;
+  width:35%;
+}
+#rgt{min-width: 20%;}
+/*end of image and one text*/
