@@ -116,16 +116,16 @@ body{
 /*end of the middle articele with text and images*/
 
 /*image and one text*/
-.image-text{
+.image-text,.img-text-2{
   width:100%;
   text-align: center;
 }
-.left-text{
+.left-text,.left-img-2{
   float: left;
   width: 68%;
   margin-left: 0 1.5%;
 }
-.right-img{
+.right-img,.left-text-2{
   float: right;
   width: 32%;
   margin-right: 4%;
@@ -134,5 +134,17 @@ body{
   left: 4%;
   width:35%;
 }
-#rgt{min-width: 20%;}
+#rgt,#rgt-2{min-width: 20%;}
 /*end of image and one text*/
+
+/*green grid css*/
+.green{
+  background-color: green;
+  min-width: 100%;
+  height: 120px;
+}
+.greens-text{
+  top: 20px;
+  text-align: center;
+}
+/*end of green*/
