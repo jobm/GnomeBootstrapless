@@ -45,7 +45,7 @@ body{
 .image-text{
   max-width: 24%;
   position: absolute;
-  top:12%;
+  top:5%;
   transform: translate(6%);
   font-size: 32px;
   font-style: italic;
@@ -61,7 +61,7 @@ body{
   font-weight: normal;
   max-width: 26%;
   position: absolute;
-  top: 26%;
+  top: 16%;
   transform:translate(6%);
   text-decoration: overline underline;
   /*padding: 12% 12% 12% 12%;*/
