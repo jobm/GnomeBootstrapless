@@ -139,7 +139,8 @@ body{
 
 /*green grid css*/
 .green{
-  background-color: green;
+  background-color: #33FF00;
+  color:#fff;
   min-width: 100%;
   height: 120px;
 }
