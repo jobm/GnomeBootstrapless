@@ -144,7 +144,30 @@ body{
   height: 120px;
 }
 .greens-text{
-  top: 20px;
+  padding-top: 1%;
   text-align: center;
 }
 /*end of green*/
+
+/*last div css*/
+.last-div{
+  background-color: #383838;
+  height: 120px;
+}
+.content-con{
+  position: absolute;
+  padding-top: top:8%;
+  left: 30%;
+  text-align: center;
+}
+.last-div h3{
+  text-align: center;
+}
+#last-ul{
+  text-align: center;
+}
+#last-ul li{
+  display: inline;
+  margin: 0px;
+}
+/*end of last div css*/
