@@ -1,3 +1,3 @@
 # GnomeBootstrapless
 
-Gnome without bootstrap
+Gnome template without bootstrap, just vanilla HTML+CSS.
